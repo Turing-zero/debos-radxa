@@ -20,9 +20,9 @@ export IMAGESIZE=2000MB
 # Add pre-installed packages for target system
 cat > $BUILD_DIR/${BOARD}-${MODEL}-${DISTRO}-${VARIANT}-${ARCH}-${FORMAT}-packages.list <<EOF
 rockchip-overlay*.deb
-linux-headers-4.19.193-*.deb
-linux-image-4.19.193-*.deb
-linux-4.19-rock-3-latest*.deb
+linux-headers-5.10.66-*-dirty-3_arm64.deb
+linux-image-5.10.66-*-dirty-3_arm64.deb
+linux-libc-dev_5.10.66-*-dirty-3_arm64.deb
 resize-assistant*.deb
 brcm-patchram-plus1*.deb
 broadcom-wifibt-firmware*.deb
